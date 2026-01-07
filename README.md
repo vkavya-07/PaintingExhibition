@@ -1,5 +1,7 @@
 # PaintingExhibition
 
+[![CI](https://github.com/vkavya-07/PaintingExhibition/actions/workflows/ci.yml/badge.svg)](https://github.com/vkavya-07/PaintingExhibition/actions/workflows/ci.yml)
+
 Painting gallery REST API using FastAPI and SQLModel. Features role-based operations for `user` and `admin`.
 
 Run locally:
