@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+painting_exhibition.db
+tests/test.db
+.env
+.idea/
+.vscode/
