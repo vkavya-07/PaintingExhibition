@@ -42,6 +42,8 @@ curl -sX GET "http://localhost:8000/paintings/sold?createdBy=Alice&min_price=500
 
 A lightweight health endpoint is available at `GET /health/` which returns JSON like `{"status": "ok", "uptime": 1.234}`. Tests include a healthcheck to ensure the endpoint is available in CI.
 
+Interactive API docs are available via Swagger UI at `GET /docs` and ReDoc at `GET /redoc`. Use `/` to be redirected to the Swagger UI.
+
 ## Development & Git hooks
 
 Install dev tools and enable pre-commit locally:
